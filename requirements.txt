@@ -1,0 +1,8 @@
+Flask==2.3.3
+google-cloud-aiplatform==1.49.0
+google-cloud-bigquery==3.22.0
+google-cloud-storage==2.16.0
+google-maps-services-python==2.5.0 # For Maps API client, though direct requests are used for simplicity
+pandas==2.2.2 # For potential local data processing if needed, though BQ is primary
+requests==2.32.3 # For direct HTTP calls to Maps API
+gunicorn==22.0.0 # For serving Flask app in Cloud Run
